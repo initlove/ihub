@@ -17,6 +17,7 @@ import (
 
 func main() {
 	cfg, err := config.InitConfigFromFile("conf/isula.yml")
+	logs.Info("Just a test")
 	if err != nil {
 		return
 	}
